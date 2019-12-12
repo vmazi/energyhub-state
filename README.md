@@ -32,16 +32,16 @@ java -jar state-0.0.1-jar-with-dependencies.jar  --field ambientTemp --field sch
 Example of a file system call (on windows with windows powershell)
 *Note the folders must be in taken out of the tarball (BUT files must be still in .jsonl.gz format)
 so that the directory structure looks something like
-C:\Users\vamsi\Documents\EnergyHubData
-        - 2016
-           - 01
-              - 01.jsonl.gz
-              - 02.jsonl.jz
-                  .....
-                  .....
-           - 02
-            .....
-            .....
+C:\Users\vamsi\Documents\EnergyHubData  
+        &nbsp;2016  
+           &nbsp;&nbsp;01  
+             &nbsp;&nbsp;&nbsp;01.jsonl.gz  
+              &nbsp;&nbsp;&nbsp;02.jsonl.jz  
+               &nbsp;&nbsp;&nbsp;.....  
+               &nbsp;&nbsp;&nbsp; .....  
+           &nbsp;02  
+            &nbsp;.....  
+            &nbsp;.....  
             
  java -jar state-0.0.1-jar-with-dependencies.jar  --field ambientTemp --field schedule C:\Users\vamsi\Documents\EnergyHubData  2016-01-01T03:00
  
