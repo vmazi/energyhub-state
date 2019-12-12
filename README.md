@@ -23,7 +23,7 @@ in order to execute it, I suggest using the standalone jar with dependencies bun
 
 basic operation goes as follows
 
-java -jar state-0.0.1-jar-with-dependencies.jar [--field <field>[...]] <uri> <date-time>
+java -jar state-0.0.1-jar-with-dependencies.jar [--field <field>[...]] [uri] [date-time]
 
 so for example, lets do an s3 call 
 
