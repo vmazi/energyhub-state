@@ -33,13 +33,13 @@ Example of a file system call (on windows with windows powershell)
 *Note the folders must be in taken out of the tarball (BUT files must be still in .jsonl.gz format)
 so that the directory structure looks something like
 C:\Users\vamsi\Documents\EnergyHubData  
-       &nbsp;&nbsp; &nbsp;2016  
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01  
-            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01.jsonl.gz  
-            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02.jsonl.jz  
+       &nbsp;&nbsp; &nbsp;-2016  
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-01  
+            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 01.jsonl.gz  
+            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 02.jsonl.jz  
             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.....  
              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .....  
-         &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;02  
+         &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;-02  
           &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;.....  
           &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;.....  
             
