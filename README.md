@@ -54,3 +54,4 @@ C:\Users\vamsi\Documents\EnergyHubData
  however if calling via bash shell on windows you need to provide the directory unix-style, not windows style)
  
  
+In order to run unit tests, open the project in any widely used IDE (eclipse,intellij etc) and right click on the project and run as JUnit Test
