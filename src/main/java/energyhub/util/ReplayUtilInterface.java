@@ -49,9 +49,6 @@ public interface ReplayUtilInterface {
 
 	public String combineTimeStampFilePathAndLocationInput(String timeStampFilePath, String inputLocation);
 
-	public String lookForValueOfFieldInFilesTwoDaysWithinTimeStampGiven(String field, String fileLocationInput,
-			String timeStampInput) throws Exception;
-
 	public JSONObject findStateWhenFileMissing(List<String> fieldOptions, String fileLocationInput,
 			String timeStampInput) throws Exception;
 

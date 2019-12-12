@@ -290,7 +290,7 @@ public class ReplayUtilImpl implements ReplayUtilInterface {
 
 	}
 
-	public String lookForValueOfFieldInFilesTwoDaysWithinTimeStampGiven(String field, String fileLocationInput,
+	private String lookForValueOfFieldInFilesTwoDaysWithinTimeStampGiven(String field, String fileLocationInput,
 			String timeStampInput) throws Exception {
 
 		String state = lookForValueOfFieldInAfterStateOfDaysBefore(field, fileLocationInput, timeStampInput, 1);
