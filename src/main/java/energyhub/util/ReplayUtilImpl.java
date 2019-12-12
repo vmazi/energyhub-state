@@ -236,7 +236,7 @@ public class ReplayUtilImpl implements ReplayUtilInterface {
 
 			fullFilePath.append(inputLocation);
 			// due to me using file.seperator, if on windows the default behavior uses the
-			// wrong slash
+			// wrong slash for a web call, so simply replace the incorrect slashes with correct ones
 			// furthermore since the s3 url already has an ending forward slash but the
 			// filesystem
 			// command does not, do not add an extra slash
